@@ -1,0 +1,24 @@
+experiment_name: llm_as_judge_project_j
+seed: 42
+
+data:
+  path: data/judge_benchmark.csv
+  results_dir: results
+
+judge:
+  backend: heuristic   # heuristic | hf | openai
+  model_name: google/flan-t5-base
+  openai_model: gpt-4o-mini
+  max_new_tokens: 96
+  temperature: 0.0
+  device: auto
+
+run:
+  modes:
+    - baseline_pairwise
+    - position_swap
+    - rubric
+    - style_stress
+    - length_stress
+    - pointwise_calibration
+  limit: null

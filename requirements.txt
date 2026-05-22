@@ -1,0 +1,19 @@
+# Core
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+tqdm>=4.66.0
+pyyaml>=6.0.1
+
+# Optional local open-model judging. In Google Colab, install these and use --backend hf.
+transformers>=4.40.0
+accelerate>=0.28.0
+torch>=2.1.0
+sentencepiece>=0.2.0
+
+# Optional API backend. Leave unset if you only use local HF models or heuristic baseline.
+openai>=1.30.0
+
+# Development/testing
+pytest>=7.4.0

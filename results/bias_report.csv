@@ -1,0 +1,5 @@
+bias,n,consistency_rate,orig_pref_A_rate,swap_pref_A_rate,estimated_position_bias_strength,lengthened_side,move_to_lengthened_rate,pref_lengthened_baseline,pref_lengthened_stress,accuracy_on_style_decoys,wrong_stylish_B_preference_rate,note
+position,120,0.0,1.0,1.0,1.0,,,,,,,
+length,120,,,,,B,0.0,0.0,0.0,,,
+style_over_substance,120,,,,,,,,,0.49166666666666664,0.0,
+self_preference,0,,,,,,,,,,,No model_a/model_b metadata in dataset.
